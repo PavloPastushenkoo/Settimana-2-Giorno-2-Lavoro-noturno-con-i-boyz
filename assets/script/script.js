@@ -74,6 +74,7 @@ console.log(nomiEliminati);
 console.log(nomi);
 
 //splice è un metodo che serve 
+console.log("splice");
 
 const cognomi = ["Pastushenko", "Nacccari" ,"Amoruso", "Cerotto", "Ifrim"];
 console.log(cognomi);
@@ -91,6 +92,8 @@ console.log(unito);
   prima e gli ultimi 3 della seconda. Converti la stringa risultante
    in maiuscolo e mostrala con un console.log().
 */
+
+console.log("Slice");
 
 let nome = "Igor";
 let Cognome = "Miti";
@@ -116,7 +119,6 @@ console.log(arrayForEach);
 const arrayForEach2 = [22, 16, 17, 92];
 
 arrayForEach2.forEach(function(ciao){
-   // console.log(ciao + 4);
 });
 
 arrayForEach2.forEach(ciao => (ciao + 4));
@@ -161,4 +163,22 @@ console.log("Some");
 const numeriSome = [21, 64, 16, 89, 55];
 const numeriSomeVerificati = numeriSome.some(Antonio => Antonio < 17);
 console.log(numeriSomeVerificati);
+
+console.log("IndexOf"); // La posizione del ogetto che stai andando a cercare al interno del array creato 
+
+const numeriIndex = [21, 64, 16, 89, 55];
+const numeriIndexOf= numeriIndex.indexOf(16);
+console.log(numeriIndexOf);
+
+console.log("find");
+
+const numeriFind = [21, 64, 16, 89, 55];
+const numeriTrovato= numeriFind.find(Antonio => Antonio > 80);
+console.log(numeriTrovato);
+
+console.log("findIndex");
+
+const numeroFindIndex = [21, 64, 16, 89, 55];
+const numeriFindPosizione= numeroFindIndex.findIndex(Antonio => Antonio > 60);
+console.log(numeriFindPosizione);
 
